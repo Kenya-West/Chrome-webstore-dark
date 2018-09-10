@@ -1,0 +1,17 @@
+{
+  "name": "chrome-webstore-dark",
+  "version": "0.0.1",
+  "description": "A dark style for the new Chrome Webstore",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo \"Start compiling by npm run watch or npm run compile\"",
+    "watch": "sass --watch src/style.scss dist/style.css",
+    "compile": "sass src/style.scss dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenya-West",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.13.2"
+  }
+}
